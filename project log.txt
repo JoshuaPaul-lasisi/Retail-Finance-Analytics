@@ -2,3 +2,12 @@
 2212HRS
 
 We begin with data acquisition. The intent is to use real-world data and show true, and possibly updatable analytics.
+
+Here's what I'm thinking:
+let's use public retail datasets. it should be possible to scrape their data directly and update it automatically. I'll link my postgres to my vscode and run my scripts on my pgadmin. you can teach me how to make that work. i think we can work it such that the scraped data is updated regularly from their site and the analytics are updated automatically. how can we go about that? is it workable?
+
+but i looked it up now and found out that no companies have their retail data publicly available. That being the case, let's use the static data like that, call it directly like it's in a database to simulate caling from a live updatable database, and analyze it, then create the dashboard to show the results of the analyses. then add the code that periodically updates itself from the data source.
+
+This way, we can productize the project such that anyone can link it up to their database and have it analyzed.
+
+That should be possible yeah?
