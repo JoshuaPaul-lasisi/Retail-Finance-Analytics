@@ -1,0 +1,4 @@
+02.10.2025
+2212HRS
+
+We begin with data acquisition. The intent is to use real-world data and show true, and possibly updatable analytics.
