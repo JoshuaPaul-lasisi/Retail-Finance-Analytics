@@ -11,3 +11,12 @@ but i looked it up now and found out that no companies have their retail data pu
 This way, we can productize the project such that anyone can link it up to their database and have it analyzed.
 
 That should be possible yeah?
+
+It should be. I'm thinking of using the SUPERSTORE dataset.
+
+So why not just take in the large superstore dataset and split it into different tables all linked to each other in the appropriate way? these tables will form the database and make it easier for the company clerk to input data going forward. We don't need to simulate anything we don't have. It's unnecessary in my opinion.
+
+analyze the data using postgres and then present the results using power bi.
+
+the refresh would then be at the dataset loading section while the rest of the process from splitting the larger table into the different tables is automated. this automatically updates the results of our queries and thereby, updates the dashboard
+
